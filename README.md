@@ -37,5 +37,5 @@ img = cv2.pow(img, correction)
 kernel = np.ones((5,5),np.float32)/25
 dst = cv2.filter2D(img,-1,kernel)
 ```
-## Video Capture
+
 
